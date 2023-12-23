@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>JokeAPI Project</title>
+  </head>
+  <body>
+    <h1>Joke of the Moment</h1>
+    <% if(locals){ %>
+    <h2>Category:</h2>
+    <%= category %>
+    <h3>Joke:</h3>
+    <%= joke %>
+    <h3>Answer:</h3>
+    <%= answer %> <% } %>
+  </body>
+</html>
